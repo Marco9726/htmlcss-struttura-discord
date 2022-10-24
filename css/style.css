@@ -1,8 +1,14 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: 0 auto;
+}
+
 /* inizio header */
 header{
     height: 80px;
@@ -14,7 +20,6 @@ header{
 header .container{
     border: 1px dashed black;
     width: 75%;
-    margin: 0 auto;
     background-color: rgb(187, 165, 38);
 }
 
@@ -48,14 +53,18 @@ header .row .account{
 /* fine header/ */
 
 /* inizio settore 1 */
-.background-img{
-    background-color: blue;
+main .big-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.background-img .container{
+
+main .blue{
+    background-color: darkblue;
+}
+
+main .blue .container{
     width: 60%;
     height: 50vh;
     border: 1px dashed black;
-    margin: 50px auto;
-    background-color: rgb(244, 131, 201);
-
+    background-color: rgb(211, 26, 140);
 }
