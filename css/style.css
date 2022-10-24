@@ -111,6 +111,7 @@ main .grey .darkgreen{
  /* inizio contenitore opzioni  */
  footer .options{
     height: 60vh;
+    margin-bottom: 20px;
  }
 
  footer .options .col-left{
@@ -127,3 +128,28 @@ main .grey .darkgreen{
     width: calc(100% / 4);
     background-color: rgb(27, 225, 189);
  }
+ /* fine contenitore opzioni  */
+
+ hr{
+    color: white;
+ }
+
+ /* inizio container finale */
+
+ footer .last{
+    height: 80px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: aquamarine;
+ }
+ footer .last .row{
+    justify-content: space-between;
+ }
+
+ footer .last .row div{
+    padding: 5px;
+    background-color: pink;
+ }
+
+ /* fine footer  */
