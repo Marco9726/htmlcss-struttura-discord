@@ -46,3 +46,16 @@ header .row .account{
     padding-right: 8px;
 }
 /* fine header/ */
+
+/* inizio settore 1 */
+.background-img{
+    background-color: blue;
+}
+.background-img .container{
+    width: 60%;
+    height: 50vh;
+    border: 1px dashed black;
+    margin: 50px auto;
+    background-color: rgb(244, 131, 201);
+
+}
