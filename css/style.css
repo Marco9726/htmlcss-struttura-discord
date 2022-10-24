@@ -58,13 +58,20 @@ main .big-box{
     padding-bottom: 50px;
 }
 
+.big-box .container{
+    height: 50vh;
+}
+
 main .blue{
     background-color: darkblue;
 }
 
-main .blue .container{
+main .blue .fucsia{
     width: 60%;
-    height: 50vh;
     border: 1px dashed black;
     background-color: rgb(211, 26, 140);
+}
+
+main .grey{
+    background-color: lightgrey;
 }
