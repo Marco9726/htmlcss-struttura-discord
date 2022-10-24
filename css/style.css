@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed black;
 }
 
 .container{
@@ -10,7 +11,9 @@
     width: 75%;
 }
 
-
+.row{
+    display: flex;
+}
 
 /* inizio header */
 header{
@@ -21,18 +24,12 @@ header{
 }
 
 header .container{
-    border: 1px dashed black;
     background-color: rgb(187, 165, 38);
-}
-
-header .row{
-    display: flex;
 }
 
 header .row *{
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px dashed black;
 }
 
 header .row .logo, .account{
@@ -54,6 +51,8 @@ header .row .account{
 }
 /* fine header/ */
 
+/* inizio main  */
+
 /* regole settori main  */
 main .big-box{
     padding-top: 50px;
@@ -62,12 +61,8 @@ main .big-box{
 
 main .big-box .container{
     height: 50vh;
-    border: 1px dashed black;
 }
 
-main .big-box .container .row{
-    display: flex;
-}
 /* inizio settore 1 */
 
 main .blue{
@@ -76,7 +71,6 @@ main .blue{
 
 main .blue .fucsia{
     width: 60%;
-    border: 1px dashed black;
     background-color: rgb(211, 26, 140);
 }
 /* fine settore 1 */
@@ -106,4 +100,30 @@ main .grey .darkgreen{
     height: 100vh;
     background-color: darkgreen;
 }
-/* fine settore 5 */
+/* fine settore 5 e main  */
+
+/* inizio footer  */
+ footer{
+    background-color: rgb(70, 70, 70);
+    padding-top: 5px;
+ }
+
+ /* inizio contenitore opzioni  */
+ footer .options{
+    height: 60vh;
+ }
+
+ footer .options .col-left{
+    width: calc(100% / 3);
+    background-color: rgb(231, 86, 108);
+ }
+
+ footer .options .col-right{
+    width: calc(100% / 3 * 2);
+    display: flex;
+ }
+
+ footer .options .col-right .col{
+    width: calc(100% / 4);
+    background-color: rgb(27, 225, 189);
+ }
