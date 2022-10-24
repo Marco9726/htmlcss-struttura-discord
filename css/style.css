@@ -7,7 +7,10 @@
 
 .container{
     margin: 0 auto;
+    width: 75%;
 }
+
+
 
 /* inizio header */
 header{
@@ -19,7 +22,6 @@ header{
 
 header .container{
     border: 1px dashed black;
-    width: 75%;
     background-color: rgb(187, 165, 38);
 }
 
@@ -52,15 +54,21 @@ header .row .account{
 }
 /* fine header/ */
 
-/* inizio settore 1 */
+/* regole settori main  */
 main .big-box{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.big-box .container{
+main .big-box .container{
     height: 50vh;
+    border: 1px dashed black;
 }
+
+main .big-box .container .row{
+    display: flex;
+}
+/* inizio settore 1 */
 
 main .blue{
     background-color: darkblue;
@@ -71,7 +79,24 @@ main .blue .fucsia{
     border: 1px dashed black;
     background-color: rgb(211, 26, 140);
 }
+/* fine settore 1 */
+.row{
+    height: 100%;
+}
+/* inizio settor1 2-3-4 */
+
+.pink{
+    background-color: pink;
+    width: 40%;
+}
+
+.lightblue{
+    background-color: cornflowerblue;
+    width: 60%;
+}
 
 main .grey{
     background-color: lightgrey;
 }
+
+/* fine settori 2-3-4  */
