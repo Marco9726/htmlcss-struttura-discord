@@ -85,12 +85,12 @@ main .blue .fucsia{
 }
 /* inizio settor1 2-3-4 */
 
-.pink{
+.row .pink{
     background-color: pink;
     width: 40%;
 }
 
-.lightblue{
+.row .lightblue{
     background-color: cornflowerblue;
     width: 60%;
 }
@@ -98,5 +98,12 @@ main .blue .fucsia{
 main .grey{
     background-color: lightgrey;
 }
-
 /* fine settori 2-3-4  */
+
+/* inizio settore 5  */
+
+main .grey .darkgreen{
+    height: 100vh;
+    background-color: darkgreen;
+}
+/* fine settore 5 */
